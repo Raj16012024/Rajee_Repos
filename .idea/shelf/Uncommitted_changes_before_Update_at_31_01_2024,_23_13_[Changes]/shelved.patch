@@ -1,0 +1,98 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Welcome to the MavenGitHub Project!  \n\nI've created new repository called Rajee_Repos, and then created Maven Project from GitHub using IntellJ.\n\nThis is a Todo list App made in Python and the Django framework. It allows users to quickly and easily add, delete, and update events and tasks. With this App, users can effortlessly manage their tasks and events, helping them stay organized and on top of their to-do list. We hope you enjoy and we look forward to your contributions!\n\nContributing\n\nWe welcome any and all contributions! Here are some ways you can get started:\n\nReport bugs: If you encounter any bugs, please let us know. Open up an issue and let us know the problem.\nContribute code: If you are a developer and want to contribute, follow the instructions below to get started!\nSuggestions: If you don't want to code but have some awesome ideas, open up an issue explaining some updates or imporvements you would like to see!\nDocumentation: If you see the need for some additional documentation, feel free to add some!\nInstructions\n\nFork this repository\nClone the forked repository\nAdd your contributions (code or documentation)\nCommit and push\nWait for pull request to be merged
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	
++++ b/README.md	
+@@ -1,6 +1,75 @@
+ Welcome to the MavenGitHub Project!  
+ 
+-I've created new repository called Rajee_Repos, and then created Maven Project from GitHub using IntellJ.
++# MavenFirst
++
++Created this project from Rajee_Repos repository using GitHub.
++
++## Description
++
++An in-depth paragraph about your project and overview of use.
++
++## Getting Started
++
++### Dependencies
++
++* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
++* ex. Windows 10
++
++### Installing
++
++* How/where to download your program
++* Any modifications needed to be made to files/folders
++
++### Executing program
++
++* How to run the program
++* Step-by-step bullets
++```
++code blocks for commands
++```
++
++## Help
++
++Any advise for common problems or issues.
++```
++command to run if program contains helper info
++```
++
++## Authors
++
++Contributors names and contact info
++
++ex. Dominique Pizzie  
++ex. [@DomPizzie](https://twitter.com/dompizzie)
++
++## Version History
++
++* 0.2
++    * Various bug fixes and optimizations
++    * See [commit change]() or See [release history]()
++* 0.1
++    * Initial Release
++
++## License
++
++This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
++
++## Acknowledgments
++
++Inspiration, code snippets, etc.
++* [awesome-readme](https://github.com/matiassingers/awesome-readme)
++* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
++* [dbader](https://github.com/dbader/readme-template)
++* [zenorocha](https://gist.github.com/zenorocha/4526327)
++* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
++
++Fork this repository
++Clone the forked repository
++Add your contributions (code or documentation)
++Commit and push
++Wait for pull request to be merged
++
++
+ 
+ This is a Todo list App made in Python and the Django framework. It allows users to quickly and easily add, delete, and update events and tasks. With this App, users can effortlessly manage their tasks and events, helping them stay organized and on top of their to-do list. We hope you enjoy and we look forward to your contributions!
+ 
+@@ -14,8 +83,4 @@
+ Documentation: If you see the need for some additional documentation, feel free to add some!
+ Instructions
+ 
+-Fork this repository
+-Clone the forked repository
+-Add your contributions (code or documentation)
+-Commit and push
+-Wait for pull request to be merged
+\ No newline at end of file
++

@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f37d793e-5aa7-412e-a5ca-8cc37fd051fc" name="Changes" comment="Fourth Commit and push">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/CorePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/test1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/test1.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/AuthenticationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/AuthenticationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" afterDir="false" />
+    <list default="true" id="f37d793e-5aa7-412e-a5ca-8cc37fd051fc" name="Changes" comment="README.md Commit and push">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706558986607</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="README.md Commit and push">
+      <option name="closed" value="true" />
+      <created>1706733434561</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706733434562</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -242,6 +240,7 @@
     <MESSAGE value="Second Commit and push" />
     <MESSAGE value="Third Commit and push" />
     <MESSAGE value="Fourth Commit and push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fourth Commit and push" />
+    <MESSAGE value="README.md Commit and push" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md Commit and push" />
   </component>
 </project>
