@@ -2,27 +2,23 @@
 
 This project was created from the repository using Github.com; the main purpose of this repository and the project is to learn and understand Git and IntellJ.
 
-## Prerequisites
-The things you need before installing the software.
+## Prerequisites and Dependencies
+The things need before installing the software.
 * IntellJ
 * Java
 * Maven
-
-### Dependencies
 These dependencies need to be included in pom.xml 
-
 Junit
 Selenium WebDriver
 Cucumber
 Cucumber Junit
 
-#### Getting Started
-This repository has been cloned to a local machine for development and testing purposes.  Under a new Maven project, these Java packages (browser control, features, page objects, step definitions, and utilities) were created from src/test/java in IntelliJ. See deployment for notes on deploying the project.
+### Getting Started
+This repository had been cloned to a local machine for development and testing purposes.  Under a new Maven project, these Java packages (browser control, features, page objects, step definitions, and utilities) were created under src/test/java directories in IntelliJ. See deployment for notes on deploying the project.
 
+#### Installation
 
-##### Installation
-
-A step by step guide that will tell you how to get the development environment up and running.
+A step-by-step guide will tell you how to get the development environment up and running.
 
 ```
 $ First step
