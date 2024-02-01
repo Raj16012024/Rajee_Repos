@@ -14,16 +14,17 @@ Cucumber
 Cucumber Junit
 
 ### Getting Started
-This repository had been cloned to a local machine for development and testing purposes.  Under a new Maven project, these Java packages (browser control, features, page objects, step definitions, and utilities) were created under src/test/java directories in IntelliJ. See deployment for notes on deploying the project.
+This repository had been cloned to a local machine for development and testing purposes.  Under a new Maven project, these Java packages (browser control, features, page objects, step definitions, and utilities) were created under the src/test/java directories in IntelliJ.  See deployment for notes on deploying the project.
 
 #### Installation
 
 A step-by-step guide will tell you how to get the development environment up and running.
 
 ```
-$ First step
-$ Another step
-$ Final step
+$ Create the Cucumber JUnit TestRunner class to run the BDD tests.
+$ Create classes called Webconnector, Constantutilities, cucumber hooks, step definitions, and Authenticating page under the packages
+$ Create feature files and core or base page classes
+$ Implement a mechanism to run the tests in the Web connector class
 ```
 
 #### Usage
