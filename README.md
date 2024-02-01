@@ -22,9 +22,12 @@ A step-by-step guide will tell you how to get the development environment up and
 
 ```
 $ Create the Cucumber JUnit TestRunner class to run the BDD tests.
-$ Create classes called Webconnector, Constantutilities, cucumber hooks, step definitions, and Authenticating page under the packages
-$ Create feature files and core or base page classes
 $ Implement a mechanism to run the tests in the Web connector class
+$ Create classes called Web connector, Constantutilities, cucumber hooks, step definitions, base page and Authenticating page under the packages
+$ Create a feature.file and create scenarios Given, When, and Then.
+$ Create the step definition for the step in the feature file by using the snippet.
+$ Run the test and generate the Cucumber report to view the report in a browser
+
 ```
 
 #### Usage
