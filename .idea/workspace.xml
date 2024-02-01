@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f37d793e-5aa7-412e-a5ca-8cc37fd051fc" name="Changes" comment="README.md Commit and push">
+    <list default="true" id="f37d793e-5aa7-412e-a5ca-8cc37fd051fc" name="Changes" comment="Commit and push">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/test1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/test1.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +31,8 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="showPreview" value="true" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -43,7 +48,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.MavenFirstGitClass.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Feature: test1.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: test1.executor&quot;: &quot;Debug&quot;,
     &quot;Cucumber Java.Scenario: 1. Navigate to Webpage saucedemo.com.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: 1. Navigate to saucedemo.com.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: 1. Navigate to the google home page.executor&quot;: &quot;Run&quot;,
@@ -232,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706733434562</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Commit and push">
+      <option name="closed" value="true" />
+      <created>1706742883154</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706742883154</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -241,6 +254,7 @@
     <MESSAGE value="Third Commit and push" />
     <MESSAGE value="Fourth Commit and push" />
     <MESSAGE value="README.md Commit and push" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md Commit and push" />
+    <MESSAGE value="Commit and push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit and push" />
   </component>
 </project>
