@@ -4,12 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f37d793e-5aa7-412e-a5ca-8cc37fd051fc" name="Changes" comment="Commit and push">
+    <list default="true" id="f37d793e-5aa7-412e-a5ca-8cc37fd051fc" name="Changes" comment="1st Feb Commit and push">
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/Dropdown.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/DropdownPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DropdownStepdefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_02_2024,_19_21_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_02_2024__19_21__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_01_2024,_23_13_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_01_2024__23_13__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/test1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/test1.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/test1.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/AuthenticationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConstantUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConstantUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +48,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2bBhr5bn6Vju6cgdjozVTIypu7B" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,10 +60,16 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.MavenFirstGitClass.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: Dropdown.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: dropdown.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Feature: test1.executor&quot;: &quot;Debug&quot;,
     &quot;Cucumber Java.Scenario: 1. Navigate to Webpage saucedemo.com.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: 1. Navigate to saucedemo.com.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: 1. Navigate to the google home page.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: 5. Verify form authentication with data driven.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: 5. Verify login credentials with data driven.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: :.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify that the user can select the list from the dropdown.executor&quot;: &quot;Run&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;JUnit.TestRunner.executor&quot;: &quot;Run&quot;,
     &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
@@ -74,15 +92,15 @@
       <recent name="java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner">
-    <configuration name="Feature: test1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: Dropdown">
+    <configuration name="Feature: Dropdown" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/test1.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Dropdown.feature" />
       <option name="GLUE" value="browserControl" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MavenFirst" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: test1" />
+      <option name="SUGGESTED_NAME" value="Feature: Dropdown" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -94,15 +112,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: 1. Navigate to Webpage saucedemo.com" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: dropdown" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/test1.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/dropdown.feature" />
       <option name="GLUE" value="browserControl" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MavenFirst" />
-      <option name="NAME_FILTER" value="^1\. Navigate to Webpage saucedemo\.com$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^1\. Navigate to Webpage saucedemo\.com$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: 1. Navigate to Webpage saucedemo.com" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: dropdown" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -114,15 +131,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: 1. Navigate to saucedemo.com" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Verify that the user can select the list from the dropdown" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/test1.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Dropdown.feature" />
       <option name="GLUE" value="stepDefinitions browserControl" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MavenFirst" />
-      <option name="NAME_FILTER" value="^1\. Navigate to saucedemo\.com$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^1\. Navigate to saucedemo\.com$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: 1. Navigate to saucedemo.com" />
+      <option name="NAME_FILTER" value="^Verify that the user can select the list from the dropdown$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify that the user can select the list from the dropdown$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify that the user can select the list from the dropdown" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -134,15 +151,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: 1. Navigate to the google home page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: :" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/test1.feature" />
-      <option name="GLUE" value="stepDefinitions browserControl" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Dropdown.feature" />
+      <option name="GLUE" value="browserControl" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MavenFirst" />
-      <option name="NAME_FILTER" value="^1\. Navigate to the google home page$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^1\. Navigate to the google home page$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: 1. Navigate to the google home page" />
+      <option name="NAME_FILTER" value="^\:$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^\:$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: :" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -166,10 +183,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="Cucumber Java.Feature: test1" />
-        <item itemvalue="Cucumber Java.Scenario: 1. Navigate to saucedemo.com" />
-        <item itemvalue="Cucumber Java.Scenario: 1. Navigate to the google home page" />
-        <item itemvalue="Cucumber Java.Scenario: 1. Navigate to Webpage saucedemo.com" />
+        <item itemvalue="Cucumber Java.Feature: Dropdown" />
+        <item itemvalue="Cucumber Java.Scenario: Verify that the user can select the list from the dropdown" />
+        <item itemvalue="Cucumber Java.Scenario: :" />
+        <item itemvalue="Cucumber Java.Feature: dropdown" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706742883154</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1st Feb Commit and push">
+      <option name="closed" value="true" />
+      <created>1706828900476</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706828900476</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -255,6 +280,7 @@
     <MESSAGE value="Fourth Commit and push" />
     <MESSAGE value="README.md Commit and push" />
     <MESSAGE value="Commit and push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit and push" />
+    <MESSAGE value="1st Feb Commit and push" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st Feb Commit and push" />
   </component>
 </project>

@@ -2,7 +2,7 @@ package pageObjects;
 
 import browserControl.WebConnector;
 
-public class AuthenticationPage extends WebConnector {
+public class LoginPage extends WebConnector {
     /********** Locators ***********/
 
     private String usernameXpath = "//input[@placeholder='Username']";
