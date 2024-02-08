@@ -16,7 +16,7 @@ Before you begin, ensure you have the following software installed.
 
 ### Getting started
 
-1. Clone the repository to your local machine. Git clone
+1. Clone the repository to your local machine - git clone
 2. Open the project in the preferred IDE
 3. Run the build to download Maven dependencies
 4. Execute the cucumber tests
