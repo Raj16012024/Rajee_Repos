@@ -8,7 +8,7 @@ This repository contains a Maven project setup for BDD testing using Cucumber, w
 
 ### Prerequisites
 
-Before you begin, ensure you have the following software installed. 
+Before you begin, you should ensure that the following software is installed. 
 
 * [Java](https://www.oracle.com/uk/java/technologies/downloads/#jdk21-windows) 
 * [Maven](https://maven.apache.org/download.cgi) 
@@ -37,7 +37,7 @@ Execute your Cucumber tests using the Maven: mvn test.
 
 ### Reporting
 
-Cucumber uses reporter plugins to produce reports that contain information about what scenarios have passed or failed.
+Cucumber uses reporter plugins to produce reports containing information about scenarios that have passed or failed.
 
 View Cucumber HTML reports in target/cucumber-reports/index.html after running the tests.
 
