@@ -1,12 +1,12 @@
-## MavenFirst
+# MavenFirst
 
 This is a maven project for Behaviour-driven Development (BDD) with Cucumber.
 
-### Overview
+## Overview
 
 This repository contains a Maven project setup for BDD testing using Cucumber, which includes BrowserControls, Featurefiles, StepDefinitions, page objects, and Utilities to help you get started with the BDD project.
 
-### Prerequisites
+## Prerequisites
 
 Before you begin, you should ensure that the following software is installed. 
 
@@ -14,28 +14,28 @@ Before you begin, you should ensure that the following software is installed.
 * [Maven](https://maven.apache.org/download.cgi) 
 * Any IDE that supports Maven projects like [IntelliJ](https://www.jetbrains.com/idea/download/?section=mac) or [Eclipse](https://eclipseide.org/)
 
-### Getting started
+## Getting started
 
 1. Clone the repository to your local machine - git clone
 2. Open the project in the preferred IDE
 3. Run the build to download Maven dependencies
 4. Execute the cucumber tests
 
-### Project Structure
+## Project Structure
 
 - src/test/java Contains test code, including Cucumber Feature files, StepDefinitions and the runner class for the project execution.
 
 - src/test/target/pom.xml contains all the project dependencies.
 
-### Writing Features
+## Writing Features
 
 Write your BDD scenarios using Gherkin syntax in the src/test/java/Features directory. Each feature file should have a corresponding step definition in src/test/java/StepDefinitions.
 
-### Running Tests
+## Running Tests
 
 Execute your Cucumber tests using the Maven: mvn test.
 
-### Reporting
+## Reporting
 
 Cucumber uses reporter plugins to produce reports containing information about scenarios that have passed or failed.
 
