@@ -1,41 +1,44 @@
-# MavenFirst
+## MavenFirst
 
-This project was created from the repository using Github.com; the main purpose of this repository and the project is to learn and understand Git and IntellJ.
+This is a maven project for Behaviour-driven Development (BDD) with Cucumber.
 
-## Prerequisites 
-The things need before installing the software.
-* IntellJ
-* Java
-* Maven
+### Overview
 
-### Dependencies
-The following dependencies need to be included in pom.xml 
-* Junit
-* Selenium WebDriver
-* Cucumber
-* Cucumber Junit
+This repository contains a Maven project setup for BDD testing using Cucumber, which includes BrowserControls, Featurefiles, StepDefinitions, page objects, and Utilities to help you get started with the BDD project.
 
-#### Branches
-* Master:
+### Prerequisites
 
-### Getting Started
-This repository had been cloned to a local machine for development and testing purposes.  Under a new Maven project, these Java packages (browser control, features, page objects, step definitions, and utilities) were created under the src/test/java directories in IntelliJ.  See deployment for notes on deploying the project.
+Before you begin, ensure you have the following software installed. 
 
-### Usage
+* [Java](https://www.oracle.com/uk/java/technologies/downloads/#jdk21-windows) 
+* [Maven](https://maven.apache.org/download.cgi) 
+* Any IDE that supports Maven projects like [IntelliJ](https://www.jetbrains.com/idea/download/?section=mac) or [Eclipse](https://eclipseide.org/)
 
-A step-by-step guide will tell you how to get the development environment up and running.
+### Getting started
 
-```
-$ Create the Cucumber JUnit TestRunner class to run the BDD tests.
-$ Create classes called Web connector, Constantutilities, cucumber hooks, step definitions, base page and Authenticating page under the packages
-$ Implement a mechanism to run the tests in the Web connector class
-$ Create a feature.file; create Given, When, and Then scenarios.
-$ Create the step definition for the step in the feature file by using the snippet.
-$ Run the TestRunner class to find the results
+1. Clone the repository to your local machine. Git clone
+2. Open the project in the preferred IDE
+3. Run the build to download Maven dependencies
+4. Execute the cucumber tests
 
-```
-### Report
+### Project Structure
 
-Run the test and generate the Cucumber report to view the report in a browser.  
-To view the Cucumber HTML reports, go to http://localhost:63342/MavenFirst/target/cucumber.html?_ijt=vrf88g0k15k983m23nbvhch955&_ij_reload=RELOAD_ON_SAVE after running the tests.
+- src/test/java Contains test code, including Cucumber Feature files, StepDefinitions and the runner class for the project execution.
 
+- src/test/target/pom.xml contains all the project dependencies.
+
+### Writing Features
+
+Write your BDD scenarios using Gherkin syntax in the src/test/java/Features directory. Each feature file should have a corresponding step definition in src/test/java/StepDefinitions.
+
+### Running Tests
+
+Execute your Cucumber tests using the Maven: mvn test.
+
+### Reporting
+
+Cucumber uses reporter plugins to produce reports that contain information about what scenarios have passed or failed.
+
+View Cucumber HTML reports in target/cucumber-reports/index.html after running the tests.
+
+We can generate local reports using built-in reporter plugins like "Pretty."
