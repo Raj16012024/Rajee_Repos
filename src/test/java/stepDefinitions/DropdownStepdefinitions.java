@@ -29,19 +29,19 @@ public class DropdownStepdefinitions extends WebConnector {
         DDPage.clickloginbutton();
     }
     @Then("the user should see the {string} text on the next page")
-    public void theUserShouldSeeTheTextOnTheNextPage(String expectedText) {
+    public void theUserShouldSeeTheTextOnTheNextPage(String expectedText) throws InterruptedException {
         Assert.assertTrue(driver.getPageSource().contains(expectedText));
+        Thread.sleep(2000);
     }
 
     @When("the user select {string} option from the dropdown list")
     public void theUserSelectOptionFromTheDropdownList(String DDoption) throws InterruptedException {
         DDPage.selectOptionFromDropdown(DDoption);
-        Thread.sleep(5000);
-
+        Thread.sleep(2000);
     }
     @Then("the user should see {string} option is selected in the dropdown list")
     public void theUserShouldSeeOptionIsSelectedInTheDropdownList(String SelectDDOption) throws InterruptedException {
         DDPage.checkSelectedOptions(SelectDDOption);
-        Thread.sleep(5000);
+        Thread.sleep(2000);
     }
 }
