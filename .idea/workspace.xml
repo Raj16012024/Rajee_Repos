@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f37d793e-5aa7-412e-a5ca-8cc37fd051fc" name="Changes" comment="9th Feb Commit and push">
+    <list default="true" id="f37d793e-5aa7-412e-a5ca-8cc37fd051fc" name="Changes" comment="12th Feb Commit and push">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/Dropdown.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Dropdown.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/DropdownPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/DropdownPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/DropdownStepdefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DropdownStepdefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -275,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707513294234</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="12th Feb Commit and push">
+      <option name="closed" value="true" />
+      <created>1707766807069</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707766807069</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -288,6 +296,7 @@
     <MESSAGE value="1st Feb Commit and push" />
     <MESSAGE value="8th Feb Commit and push" />
     <MESSAGE value="9th Feb Commit and push" />
-    <option name="LAST_COMMIT_MESSAGE" value="9th Feb Commit and push" />
+    <MESSAGE value="12th Feb Commit and push" />
+    <option name="LAST_COMMIT_MESSAGE" value="12th Feb Commit and push" />
   </component>
 </project>

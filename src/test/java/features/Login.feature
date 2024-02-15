@@ -5,7 +5,7 @@ Feature: Test 1 feature
     Given the user navigates to "https://www.saucedemo.com"
 #    Given the user navigates to "/search" - you can directly give the page you wish to go from base url
 
-#  @smoketest3
+#  @smoketest1
   Scenario Outline: 1. Verify login credentials with data driven
 
     When the user login with "<username>" username and "<password>" password
@@ -18,7 +18,7 @@ Feature: Test 1 feature
       | standarduser  | secret_sauce  | Epic sadface: Username and password do not match any user in this service |
       | standarduser  | secret_sauce1 | Epic sadface: Username and password do not match any user in this service |
 
-#  @smoketest4
+#  @smoketest2
   Scenario Outline: 2. Verify login credentials with data driven
 
     When the user login with "<username>" username and "<password>" password
