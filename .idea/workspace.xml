@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f37d793e-5aa7-412e-a5ca-8cc37fd051fc" name="Changes" comment="12th Feb Commit and push">
+    <list default="true" id="f37d793e-5aa7-412e-a5ca-8cc37fd051fc" name="Changes" comment="15th Feb Commit and push">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/Dropdown.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Dropdown.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/DropdownStepdefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DropdownStepdefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginStepDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +29,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
     <option name="showPreview" value="true" />
   </component>
   <component name="ProjectColorInfo">{
@@ -70,6 +69,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
 }</component>
@@ -283,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707766807069</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="15th Feb Commit and push">
+      <option name="closed" value="true" />
+      <created>1708013092491</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708013092491</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -297,6 +305,7 @@
     <MESSAGE value="8th Feb Commit and push" />
     <MESSAGE value="9th Feb Commit and push" />
     <MESSAGE value="12th Feb Commit and push" />
-    <option name="LAST_COMMIT_MESSAGE" value="12th Feb Commit and push" />
+    <MESSAGE value="15th Feb Commit and push" />
+    <option name="LAST_COMMIT_MESSAGE" value="15th Feb Commit and push" />
   </component>
 </project>

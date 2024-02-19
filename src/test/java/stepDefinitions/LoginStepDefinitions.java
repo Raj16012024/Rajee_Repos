@@ -6,10 +6,10 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import pageObjects.LoginPage;
-//import utilities.ConstantUtils;
+
 
 public class LoginStepDefinitions extends WebConnector {
-    private final LoginPage AuthPage = new LoginPage();
+    private LoginPage AuthPage = new LoginPage();
 
     @Given("the user navigates to {string}")
     public void the_user_navigates_to(String URL) {

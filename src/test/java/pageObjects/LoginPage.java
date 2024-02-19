@@ -30,7 +30,8 @@ public class LoginPage extends WebConnector {
     * Click Login Button
     */
     public void clickloginbutton() {
-    CorePage.findElementByXpath(10, loginXpath).click();
+
+        CorePage.findElementByXpath(10, loginXpath).click();
     }
 }
 
