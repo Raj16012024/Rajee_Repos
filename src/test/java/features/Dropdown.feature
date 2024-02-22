@@ -1,7 +1,7 @@
 @RegressionTest1
 Feature: Dropdown feature
 
-  Background: Navigate to saucedemo webpage
+  Background: Navigate to sauce demo webpage
     Given the user navigates to "https://www.saucedemo.com"
     When the user login with "standard_user" username and "secret_sauce" password
 
