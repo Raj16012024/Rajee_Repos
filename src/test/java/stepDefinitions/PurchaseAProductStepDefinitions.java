@@ -9,8 +9,6 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import pageObjects.PurchaseAProductPage;
 
-import java.io.File;
-
 public class PurchaseAProductStepDefinitions extends WebConnector {
     private PurchaseAProductPage Cart = new PurchaseAProductPage();
 
