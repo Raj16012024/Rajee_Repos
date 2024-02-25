@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f37d793e-5aa7-412e-a5ca-8cc37fd051fc" name="Changes" comment="22nd Feb Commit and push" />
+    <list default="true" id="f37d793e-5aa7-412e-a5ca-8cc37fd051fc" name="Changes" comment="25th Feb Commit and push">
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/PurchaseAProduct.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/PurchaseAProductPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/PurchaseAProductStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/AddProductToCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/AddProductToCartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/AddProductToCartStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/AddProductToCartStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/DropdownStepdefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DropdownStepdefinitions.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -304,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708643073928</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="25th Feb Commit and push">
+      <option name="closed" value="true" />
+      <created>1708820155670</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1708820155671</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -321,6 +338,7 @@
     <MESSAGE value="15th Feb Commit and push" />
     <MESSAGE value="19th Feb Commit and push" />
     <MESSAGE value="22nd Feb Commit and push" />
-    <option name="LAST_COMMIT_MESSAGE" value="22nd Feb Commit and push" />
+    <MESSAGE value="25th Feb Commit and push" />
+    <option name="LAST_COMMIT_MESSAGE" value="25th Feb Commit and push" />
   </component>
 </project>

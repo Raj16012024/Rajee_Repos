@@ -20,8 +20,4 @@ public class AddProductToCartStepDefinitions extends WebConnector {
         Thread.sleep(2000);}
 
 
-
-
-
-
 }

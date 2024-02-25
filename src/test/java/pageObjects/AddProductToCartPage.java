@@ -16,7 +16,7 @@ public class AddProductToCartPage extends WebConnector {
     /**
      * Add the Product to the cart
      */
-    public void AddProduct (String Cart) {
+    public void AddProduct (String cart) {
         CorePage.findElementByXpath(10, AddToCartXpath).click();}
     /**
      * Select basket to see the cart

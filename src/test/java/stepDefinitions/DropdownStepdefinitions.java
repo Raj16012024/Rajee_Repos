@@ -13,7 +13,9 @@ public class DropdownStepdefinitions extends WebConnector {
     private DropdownPage DDPage = new DropdownPage();
 
     @When("the user should see {int} options in the sort dropdown")
-    public void theUserShouldSeeOptionsInTheSortDropdown(int arg0) {
+    public void theUserShouldSeeOptionsInTheSortDropdown(int Four) {
+
+
     }
 
     @And("the user select {string} option from the dropdown list")
