@@ -1,4 +1,4 @@
-@RegressionTest1
+@RegressionTestDropdown
 Feature: Dropdown feature
 
   Background: Navigate to sauce demo webpage

@@ -1,4 +1,4 @@
-@RegressionTest3
+@RegressionTestProblemUser
 Feature: Login using Problem User and add product to the cart
 
   Background: Navigate to saucedemo webpage

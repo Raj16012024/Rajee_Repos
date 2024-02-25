@@ -1,4 +1,4 @@
-@RegressionTest2
+@RegressionTestCart
 Feature: Adding a Product to the basket to purchase feature
 
   Scenario: : Add a Product to the cart Feature
