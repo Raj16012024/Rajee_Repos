@@ -6,7 +6,7 @@ Feature:  Login and then purchase a product
     When the user login with "standard_user" username and "secret_sauce" password
     Then the user should see "Products" text on the page
 
-  Scenario Outline: Add the product to the Cart
+  Scenario Outline: Add the product to the Cart and proceed
     When the user click on the Add to cart button
     And the user select "Shopping Cart link" on the page
     Then the user proceeds to the checkout
@@ -16,5 +16,5 @@ Feature:  Login and then purchase a product
     Then the user should see "<Expected Text>" text on the page
 
     Examples:
-      | FirstName | LastName | Zip/Postal code | Expected Text |
+      | FirstName | LastName | Zip/Postal code | Expected Text             |
       | R         | Raj      | CF11            | Thank you for your order! |
