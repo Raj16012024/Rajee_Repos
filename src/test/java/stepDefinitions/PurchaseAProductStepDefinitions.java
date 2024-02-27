@@ -30,15 +30,4 @@ public class PurchaseAProductStepDefinitions extends WebConnector {
         Cart.Finish();
         Thread.sleep(2000);
     }
-    @After
-    public void teardown(Scenario scenario) {
-
-        if (scenario.isFailed()) {
-            //Take a screenshot
-            final byte[] Screenshots = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
-            // embed it in the report
-            scenario.attach(Screenshots, "image/png", scenario.getName().replace(" ", "_") + "_ErrorScreenshot");
-        }
-        closeBrowser();
-    }
 }

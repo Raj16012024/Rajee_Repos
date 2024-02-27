@@ -7,6 +7,10 @@ public class AddProductToCartPage extends WebConnector {
     private String AddToCartXpath = "//button[@id='add-to-cart-sauce-labs-backpack']";
     private String ShoppingCartXpath = "//div[@id='shopping_cart_container']";
 
+    //a[@id='Item_4_title_link']//div[@class='inventory_item_name']
+    //a[@id='Item_%d_title_link']//div[@class='inventory_item_name']
+    //div[text()='Sauce Labs Backpack']
+
     /********* Getters and Setters *********/
     /**
      * Selecting the Product to add to cart

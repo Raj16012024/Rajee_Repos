@@ -10,8 +10,15 @@ import org.openqa.selenium.TakesScreenshot;
 public class CucumberHooks extends WebConnector {
     @Before
     public void setup() {openBrowser();}
-//    @After
-//    public void teardown() {closeBrowser();}
+    @After
+    public void teardown(Scenario scenario) {
+
+        if (scenario.isFailed()) {
+            //Take a screenshot
+            final byte[] Screenshots = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+            // embed it in the report
+            scenario.attach(Screenshots, "image/png", scenario.getName().replace(" ", "_") + "_ErrorScreenshot");}
+        closeBrowser();}
 }
 
 
